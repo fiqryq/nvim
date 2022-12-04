@@ -11,10 +11,6 @@ Dotfile for my personal workflows.
 ## Tmux action key
 
 ```Shell
-#set -g default-terminal "tmux-256color"
-set -g default-terminal "xterm-256color"
-#set -ga terminal-overrides ",*256col*:Tc"
-set -ga terminal-overrides ",xterm-256color:Tc"
 # action key
 unbind C-b
 set-option -g prefix C-t
