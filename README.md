@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/25787603/212719746-13a6d421-bb93-431e-a54b-12de8c9e17dd.png)
+
 ## Personal dotfiles
 Dotfile for my personal workflows.
 
