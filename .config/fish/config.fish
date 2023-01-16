@@ -1,4 +1,4 @@
-set fish_greeting "welcome sir!"
+set fish_greeting "welcome sir! happy hacking!"
 
 set -gx TERM xterm-256color
 
@@ -14,7 +14,7 @@ alias ls "ls -p -G"
 alias la "ls -A"
 alias ll "ls -l"
 alias lla "ll -A"
-alias . "code ."
+alias . "nvim ."
 
 # git aliases
 alias g git
@@ -22,6 +22,11 @@ alias ga "git add ."
 alias gcm "git commit -m"
 alias gpo "git push origin"
 alias gco "git checkout"
+alias clone "git clone"
+
+# go alias
+alias gr "go run"
+alias gb "go build"
 
 # yarn aliases
 alias yd "yarn run dev"
@@ -32,12 +37,15 @@ alias yad "yarn add"
 alias pi "pnpm install"
 alias pd "pnpm run dev"
 alias ps "pnpm run start"
+alias pt "pnpm run test"
 
 # vm alias
 alias vm "ssh vm"
 
 # create react app
 alias cra "npx create-next-app --example https://github.com/fiqryq/next-boilerplate"
+
+alias ide "tmux split-window -v -p 30" 
 
 command -qv nvim && alias vim nvim
 
